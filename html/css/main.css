@@ -4,10 +4,9 @@ html, body {
 	font-family: 'Scada', sans-serif;
 }
 
-.header {
+header {
 	width: 100%;
 	height: 78px;
-	overflow: hidden;
 	background-color: rgba(238,238,238,0.95);
 	position: fixed;
 	top: 0;
@@ -25,4 +24,122 @@ html, body {
 	height: 33px;
 	margin-top: 22px;
 	float: left;
+}
+
+.header-contacts {
+	float: left;
+	margin: 17px 0 0 84px;
+	font-size: 12px;
+	color: #777;
+	line-height: 18px;
+}
+
+.header-big-phone {
+	color: #35ab6c;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.header-contacts a {
+	color: #777;
+	font-size: 15px;
+	transition: all 0.2s ease;
+}
+
+.header-contacts a:hover {
+	color: #0080BD;
+}
+
+/* Навигация */
+
+.header-nav {
+	float: right;
+}
+
+.dropmenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dropmenu li {
+  float: left;
+  list-style: none;
+  position: relative;
+  background-color: rgba(0,0,0,0);
+  transition: all 0.5s ease;
+}
+
+.dropmenu li a {
+	text-decoration: none;
+	color: #005385;
+	display: block;
+	padding: 0 20px;
+	font-size: 17px;
+	line-height: 78px;
+}
+
+.dropmenu li ul {
+	display: none;
+	position: absolute;
+	left: 0; 
+	top: 100%;
+	width: 280px;
+	box-shadow: 0px 10px 20px 0px rgba(54, 29, 20, 0.5);
+	z-index: 10;
+	background-color: #35ab6c;
+	line-height: 30px;
+	transition: all 0.2s ease;
+	
+}
+
+.dropmenu li ul li {
+	float: none;
+	border-top: 1px solid #fff;
+}
+
+.dropmenu li ul li:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.dropmenu li ul li a {
+	color: #fff;
+	line-height: 52px;
+}
+
+.dropmenu li ul li ul {
+	left: 100%; top: 0;
+}
+
+.dropmenu li:hover {
+	background: #35ab6c;
+}
+
+.dropmenu li:hover a {
+	color: #fff;
+}
+
+.dropmenu li:hover > ul {
+	display: block;
+	animation: show-subnav 0.5s 1 ease;
+}
+
+	@keyframes show-subnav {
+			0% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+
+.dropmenu li.dir > a:after {
+	content: url(../i/ico_nav_arrow.gif);
+	margin-left: 10px;
+}
+
+.dropmenu li.dir:hover > a:after {
+	content: url(../i/ico_nav_arrow_white.gif);
+	margin-left: 10px;
+}
+
+.dropmenu:after {
+	content: "";
+	display: table;
+	clear: both;
 }
