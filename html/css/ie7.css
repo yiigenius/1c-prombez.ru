@@ -1,0 +1,51 @@
+.header {
+	background-color: #eee;
+}
+
+.header-logo {
+	background-image: url(../i/logo.gif);
+}
+
+.promo-nav-item {
+	position: relative;
+	float: left;
+	margin-right: 19px;
+}
+
+.p-svg {
+	width: 128px;
+	height: 105px;
+}
+
+
+.ico-p-01 {
+	background-image: url(../i/ico_product_01.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ico-p-02 {
+	background-image: url(../i/ico_product_02.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ico-p-03 {
+	background-image: url(../i/ico_product_03.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ico-p-04 {
+	background-image: url(../i/ico_product_04.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}

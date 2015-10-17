@@ -4,7 +4,7 @@ html, body {
 	font-family: 'Scada', sans-serif;
 }
 
-header {
+.header {
 	width: 100%;
 	height: 78px;
 	background-color: rgba(238,238,238,0.95);
@@ -12,6 +12,8 @@ header {
 	top: 0;
 	z-index: 10;
 	box-shadow: 0 1px 1px #ccc;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 
 .header-center {
@@ -142,4 +144,38 @@ header {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.main-title {
+	background-color: #005385;
+	background-image: url(../i/bg_promo_inside.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 128px 0 60px 0;
+	color: #eee;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.main-title-center {
+	width: 970px;
+	margin: 0 auto;
+	line-height: 26px;
+}
+
+.site-path a {
+	color: #fff;
+	font-size: 18px;
+}
+
+.site-path span {
+	font-size: 16px;
+	margin: 0 20px;
+}
+
+.main-title-text {
+	font-size: 48px;
+	text-transform: uppercase;
+	line-height: 48px;
+	font-weight: bold;
 }
