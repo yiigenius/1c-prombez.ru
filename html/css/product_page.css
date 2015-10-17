@@ -19,7 +19,7 @@
 	position: absolute;
 	top: 26px;
 	right: 0;
-	animation: show-buttons 1s 1 ease 4s forwards;
+	animation: show-buttons 1s 1 ease 2s forwards;
 }
 
 @keyframes show-buttons {
@@ -55,7 +55,7 @@
 	position: absolute;
 	left:313px;
 	top: 64px;
-	animation: color-stroke 4s 1 ease forwards;
+	animation: color-stroke 2s 1 ease forwards;
 }
 
 @keyframes color-stroke {
@@ -70,7 +70,7 @@
 	position: absolute;
 	left:313px;
 	top: 64px;
-	animation: color-fill 1s 1 ease 3.5s forwards;
+	animation: color-fill 1s 1 ease 1.8s forwards;
 	opacity: 0;
 }
 
